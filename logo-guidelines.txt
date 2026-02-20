@@ -1,0 +1,50 @@
+ROAN Job Hunting Logo & Icon Guidelines
+
+1. Main Logo Design
+- Use Option A (Professional Badge) or Option D (Magnifying Glass) as primary app logo.
+- Colors: Deep Blue (#1e40af), Orange (#f59e0b), White (#ffffff), Light Blue (#3b82f6).
+- Font: Montserrat Bold or Poppins Bold.
+- Style: Modern, minimal, professional.
+
+2. Icon Variations
+- Export main logo as PNG (1024x1024 or 512x512).
+- Use appicon.co to generate all Android/iOS/web icon sizes from your PNG.
+- Use favicon.io for web favicons.
+
+3. File Placement
+- Place all generated icons in the icons/ directory.
+- Example icon files:
+  - icons/ic_launcher-192x192.png
+  - icons/icon-512x512.png
+  - icons/Icon-60@3x.png
+  - icons/iTunesArtwork.png
+
+4. Manifest Update
+- Update manifest.webmanifest with all icon sizes and correct file names.
+- Example:
+  "icons": [
+    { "src": "icons/ic_launcher-192x192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icons/icon-512x512.png", "sizes": "512x512", "type": "image/png" },
+    ...
+  ]
+
+5. Testing
+- Add your app to a mobile home screen and verify the icon displays correctly.
+- Check on both Android and iOS if possible.
+
+6. Designer Brief
+"I need a professional logo for 'ROAN Job Hunting', a job search app for Cameroon.
+Style: Modern, clean, professional
+Primary Color: Deep Blue (#1e40af)
+Accent Color: Orange (#f59e0b)
+The logo should include:
+- The letters 'ROAN' prominently
+- A subtle job/search element (like a magnifying glass or briefcase)
+- Should work at small sizes (app icon) and large (store listing)
+Target audience: Job seekers and employers in Cameroon
+Feel: Trustworthy, energetic, modern
+I need files in:
+- SVG (vector) for scaling
+- PNG at 512x512 for app store
+- All iOS and Android icon sizes
+"
